@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>결석 통보서</title>
+	<meta name='description' content='다양한 방법으로 결석을 즐겨볼 수 있는 웹사이트입니다.'>
+	<meta property='og:type' content='website'>
+	<meta property='og:url' content='https://serena0412.github.io/21.12.15.absence/'>
+	<meta property='og:image' content='header.jpg'>
+	<meta property='og:title' content='학교 가기 싫은 날'>
+	<meta property='og:description' content='다양한 방법으로 결석을 즐겨볼 수 있는 웹사이트입니다.'>
+
+
+
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+		body{margin: 0px;overflow-x: hidden; font-family: 'Black Han Sans', sans-serif; background: url('background.jpg')  ;background-size: 100%; overflow-y: hidden;}
+		header{height: 120px; background-color: #000000;border-bottom:solid 5px #000000; text-align: center; position:relative;color: white;}
+		div{position:relative; height: 600px; width: 1400px;}
+		.flex{display:flex;}
+		.item{position:absolute;}
+		section{width: 1400px; margin: auto; text-align: center;}
+		h1{position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 40px; margin: auto; font-weight:normal; font-size: 2.5em;}
+		h2{position: absolute; font-size: 3em; bottom: 200px; left: 0; right: 0; font-weight:normal;}
+		h3{margin-top: 9px; text-align: center;font-size: 1.8em; font-weight:normal;}
+		h4{margin: auto; margin-top: 8px; font-size: 1.2em; font-weight: normal; }
+		h5{margin: auto; font-size: 0.9em; font-weight: normal; margin-top: 2px;}
+		h6{margin: auto;font-weight: normal; margin-top: 4px;}
+		.but{position: absolute; background: black; color: white; bottom: 20px; left: 0; right: 0; margin: auto; height: 50px; width: 200px;}
+		.but:hover{background: white; color: black; cursor:url(cursor2.png),auto  !important}
+		.black{border: solid 3px black;}
+		.center{margin-top: 84px;}
+		textarea{width: 200px; height:180px; top: 10px; left: 10px ; border: none; font-size: 0.9em; font-family: 'Black Han Sans', sans-serif; font-weight: normal; border: none; resize: none; z-index: 1; overflow:hidden;}
+
+		body,html{cursor:url(cursor1.png),auto  !important}
+		a:hover {cursor:url(cursor2.png),auto  !important}
+
+
+
+
+	</style>
+
+</head>
+<body>
+<header>
+<h1>나만의 결석 통보서를 작성해보세요!</h1>
+</header>
+
+
+<section>
+	<div class="flex">
+		
+			<div class="item black" style="width: 326px; height:495px; background-color: white; top:12px; left: 0; right: 0; margin: auto;" 
+			id="wrap">
+
+				<div class='flex item black' style="width: 287px; height:48px; top:10px;left: 0; right: 0; margin: auto; justify-content: space-around;">
+	
+					<img src='1.png' style="width: 40px; height: 40px; margin-top: 4px; margin-left:7px">
+					<h3>결석 통보서</h3>
+					<img src='2.png' style="width: 40px; height: 40px; margin-top: 4px; margin-right: 7px">
+
+				</div>
+
+				<div class='flex item black' style="width: 287px; height:410px; bottom: 10px;left: 0; right: 0; margin: auto;">
+					
+						<div class='flex item' style="width: 289px; height:36px; left: -1px; right: 0; margin: auto; border-bottom: solid 3px black">
+							<div style="width: 60px; height:38px; top: -1px; border-right: solid 3px black;">
+								<h4>학년</h4>
+							</div>
+
+							<div style="width: 84px; height:38px; top: -1px; border-right: solid 3px black; ">
+								<input type='text' placeholder="학년" maxlength="9" style="width: 70px; height:30px; margin-top: 4px; border: none; z-index: -10 ;  font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif;">
+							</div>
+
+							<div style="width: 60px; height:38px; top: -1px; border-right: solid 3px black;">
+								<h4>학번</h4>
+							</div>
+
+							<div style="width: 84px; height:38px;">
+								<input type='text' placeholder="학번" maxlength="9" style="width: 70px; height:30px; margin-top: 3px;border: none; z-index: -10 ; font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif;">
+							</div>
+
+						</div>
+
+						
+						
+						<div class='flex item' style="width: 289px; height:36px; left: -1px; right: 0; top: 40px;margin: auto; border-bottom: solid 3px black">
+							<div style="width: 60px; height:38px; top: -1px; border-right: solid 3px black;">
+								<h4>성명</h4>
+							</div>
+
+							<div style="width: 84px; height:38px; top: -1px; border-right: solid 3px black; ">
+								<input type='text' placeholder="성명"  maxlength="9" style="width: 70px; height:30px; margin-top: 4px; border: none; z-index: -10 ; font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif; ">
+							</div>
+
+							<div style="width: 60px; height:38px; top: -1px; border-right: solid 3px black;">
+								<h4>일시</h4>
+							</div>
+
+							<div style="width: 84px; height:38px;">
+								<input type='text' placeholder="yy.mm.dd." maxlength="9" style="width: 70px; height:30px; margin-top: 3px;border: none; z-index: -10 ; font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif;">
+							</div>
+
+						</div>
+					
+
+
+						<div class='flex item' style="width: 289px; height:200px; left: -1px; right: 0; top: 79px;margin: auto; border-bottom: solid 3px black">
+							<div style="width: 60px; height:203px; top: -1px; border-right: solid 3px black;">
+								<h4 class='center'>사유</h4>
+							</div>
+
+							<div style="width: 234px; height:200px; top: -1px;">
+								<form name="insertFrm">
+								<textarea name="test" cols="10" rows="8" class='item'></textarea>
+								</textarea>
+							</form>
+						</div>
+
+
+						<div class='item' style="width: 289px; height:110px; left: -1px; right: 0; top: 200px; margin: auto; border-bottom: solid 3px black; text-align: center;">
+							<h5 style=" margin-top: 14px;">상기 사유로 인해 수업에 불참할 테니<br>
+							본 통보서를 제출합니다. </h5>
+							<h5>
+								20<input type='text'maxlength="2" style="width: 20px; height:20px; margin-top: 4px; border: none;font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif; ">년    
+								<input type='text'maxlength="2" style="width: 20px; height:20px; margin-top: 4px; border: none;font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif; ">월     
+								<input type='text'maxlength="2" style="width: 20px; height:20px; margin-top: 4px; border: none;font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif; ">일</h5>
+							<h5>성명 : <input type='text'maxlength="8" style="width: 40px; height:20px; margin-top: 4px; border: none;font-size: 0.9em; font-weight: normal; font-family: 'Black Han Sans', sans-serif; ">(서명)</h5>
+						</div>
+
+						<div class='flex item' style="width: 289px; height:20px; left: -1px; right: 0; top: 313px;margin: auto; ">
+							<div style="width: 60px; height:20px; top: -1px; border-right: solid 3px black;">
+								<h6>담당자 확인</h6>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			
+
+
+
+			</div>
+
+
+
+
+
+
+		
+			
+			<div class= 'but' id='capture' onclick="takeScreenShot()"><h3>결석 하기</h3></div>
+			
+			<a href="https://serena0412.github.io/21.12.15.main/" target_self>
+			<img src='back.png' class="item" style=" width: 15%; left: 0px;bottom:40px;z-index: 0;">
+			</a>
+	</div>
+
+</section>
+
+<script type="text/javascript">
+	
+function len_chk(){ 
+  var frm = document.insertFrm.test;
+   
+  if(frm.value.length > 140){ 
+       alert("학교 가기 싫은 건 알겠지만 글자 수는 140자로 제한됩니다ㅜ.ㅜ"); 
+       frm.value = frm.value.substring(0,140); 
+       frm.focus(); 
+  } 
+
+}
+
+
+
+var takeScreenShot = function() {
+html2canvas(document.getElementById("wrap"), {
+onrendered: function (canvas) {
+var tempcanvas=document.createElement('canvas');
+tempcanvas.width=332;
+tempcanvas.height=501;
+var context=tempcanvas.getContext('2d');
+context.drawImage(canvas,0,0,1920,980,0,0,1920,980);
+var link=document.createElement("a");
+link.href=tempcanvas.toDataURL('image/jpg');   //function blocks CORS
+link.download = '결석 통보서.jpg';
+link.click();
+}
+});
+}
+
+</script>
+</body>
+</html>
